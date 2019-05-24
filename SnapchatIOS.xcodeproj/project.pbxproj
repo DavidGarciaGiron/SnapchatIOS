@@ -12,6 +12,8 @@
 		354E709F2298969600478CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354E709D2298969600478CB2 /* Main.storyboard */; };
 		354E70A12298969800478CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354E70A02298969800478CB2 /* Assets.xcassets */; };
 		354E70A42298969900478CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354E70A22298969900478CB2 /* LaunchScreen.storyboard */; };
+		354E70AC22989A5E00478CB2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 354E70AB22989A5D00478CB2 /* GoogleService-Info.plist */; };
+		354E70AE22989BD200478CB2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 354E70AD22989BD200478CB2 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		354E70A02298969800478CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		354E70A32298969900478CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		354E70A52298969900478CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		354E70AB22989A5D00478CB2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		354E70AD22989BD200478CB2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 			children = (
 				354E70982298969600478CB2 /* SnapchatIOS */,
 				354E70972298969600478CB2 /* Products */,
+				354E70AD22989BD200478CB2 /* Podfile */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +59,7 @@
 		354E70982298969600478CB2 /* SnapchatIOS */ = {
 			isa = PBXGroup;
 			children = (
+				354E70AB22989A5D00478CB2 /* GoogleService-Info.plist */,
 				354E70992298969600478CB2 /* AppDelegate.swift */,
 				354E709B2298969600478CB2 /* ViewController.swift */,
 				354E709D2298969600478CB2 /* Main.storyboard */,
@@ -122,7 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				354E70AE22989BD200478CB2 /* Podfile in Resources */,
 				354E70A42298969900478CB2 /* LaunchScreen.storyboard in Resources */,
+				354E70AC22989A5E00478CB2 /* GoogleService-Info.plist in Resources */,
 				354E70A12298969800478CB2 /* Assets.xcassets in Resources */,
 				354E709F2298969600478CB2 /* Main.storyboard in Resources */,
 			);
