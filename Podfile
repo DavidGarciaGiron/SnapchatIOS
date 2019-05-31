@@ -6,6 +6,10 @@ target 'SnapchatIOS' do
   use_frameworks!
 
   # Pods for SnapchatIOS
+    pod 'Firebase', '<4'
     pod 'Firebase/Core', '<4'
+    pod 'Firebase/Auth', '<4'
+    pod 'Firebase/Database', '<4'
+    pod 'Firebase/Storage', '<4'
 
 end
